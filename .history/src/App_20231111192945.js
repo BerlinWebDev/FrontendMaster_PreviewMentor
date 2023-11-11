@@ -1,4 +1,3 @@
-import Statisic from "./Statisic";
 import Image from "./assets/image-header-desktop.jpg";
 
 function App() {
@@ -10,30 +9,39 @@ function App() {
         <link rel="icon" href="/favicon.ico" />
       </header>
       <main className="flex min-h-screen flex-col items-center justify-center bg-black">
-        <div className="flex h-[425px] w-[1000px] rounded-lg bg-[#1b1938]">
+        <div className="flex h-96 w-[1000px] rounded-lg bg-[#1b1938]">
           <aside className="w-1/2  rounded-l-lg">
-            <div className="p-[65px]">
-              <div className="text-[35px] leading-[42px] text-white font-bold font-inter">
+            <div className="p-14">
+              <div className="text-[30px] text-white font-bold">
                 Get <span className="text-[#aa5cdb]">insights</span> that help
                 <br />
-                your business grow.
+                your business grow
               </div>
               <div className="mt-5">
-                <p className="text-[#ffffffbf] font-Inter text-[15px]">
+                <p className="text-white">
                   Discover the benefits of data analytics and make better
                   decisions regarding revenue, customer experiences, and overall
                   efficiency.
                 </p>
               </div>
               <div className="mt-10 grid grid-cols-3 gap-3">
-                <Statisic value="10k+" title="companies" />
-                <Statisic value="314" title="Templates" />
-                <Statisic value="12M+" title="Queries" />
+                <div className="text-white font-bold">
+                  <div className="">10+k</div>
+                  <div className="">Companies</div>
+                </div>
+                <div className="text-white font-bold">
+                  <div className="">10+k</div>
+                  <div className="">Companies</div>
+                </div>
+                <div className="text-white font-bold">
+                  <div className="">10+k</div>
+                  <div className="">Companies</div>
+                </div>
               </div>
             </div>
           </aside>
           <aside className="w-1/2  rounded-lg relative">
-            <div className="absolute inset-0 bg-[#aa5cdb] rounded-lg opacity-60"></div>
+            <div className="absolute inset-0 bg-[#aa5cdb] opacity-60"></div>
             <img
               className=" h-full w-full rounded-r-lg"
               src={Image}

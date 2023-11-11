@@ -10,16 +10,16 @@ function App() {
         <link rel="icon" href="/favicon.ico" />
       </header>
       <main className="flex min-h-screen flex-col items-center justify-center bg-black">
-        <div className="flex h-[425px] w-[1000px] rounded-lg bg-[#1b1938]">
+        <div className="flex h-96 w-[1000px] rounded-lg bg-[#1b1938]">
           <aside className="w-1/2  rounded-l-lg">
-            <div className="p-[65px]">
-              <div className="text-[35px] leading-[42px] text-white font-bold font-inter">
+            <div className="p-14">
+              <div className="text-[30px] text-white font-bold">
                 Get <span className="text-[#aa5cdb]">insights</span> that help
                 <br />
                 your business grow.
               </div>
               <div className="mt-5">
-                <p className="text-[#ffffffbf] font-Inter text-[15px]">
+                <p className="text-[#ffffffbf] font-Inter">
                   Discover the benefits of data analytics and make better
                   decisions regarding revenue, customer experiences, and overall
                   efficiency.
