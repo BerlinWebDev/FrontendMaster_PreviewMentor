@@ -11,7 +11,7 @@ function App() {
       </header>
       <main className="flex min-h-screen flex-col items-center justify-center bg-black">
         <div className="flex h-[425px] w-[1000px] rounded-lg bg-[#1b1938]">
-          <aside className="lg:w-1/2  rounded-l-lg">
+          <aside className="lg: w-1/2  rounded-l-lg">
             <div className="p-[65px]">
               <div className="text-[35px] leading-[42px] text-white font-bold font-inter">
                 Get <span className="text-[#aa5cdb]">insights</span> that help
